@@ -4,6 +4,8 @@ const path = require('path');
 const log = require('./server/db/log');
 const morgan = require('morgan')
 const cors = require('cors')
+var bodyParser = require('body-parser');
+
 var app = express();
 
 app = express();
