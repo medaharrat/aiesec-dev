@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node server.js && mongod --dbpath = 'app/server/data/",
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "postinstall": "npm run build"
@@ -15,12 +15,7 @@
     "vue-router": "^3.1.5",
     "axios": "^0.19.2",
     "bootstrap-vue": "^2.4.0",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "joi": "^14.3.1",
-    "monk": "^7.1.2",
-    "morgan": "^1.9.1"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
