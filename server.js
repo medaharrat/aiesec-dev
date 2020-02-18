@@ -3,6 +3,7 @@ const serveStatic = require("serve-static")
 const path = require('path');
 const log = require('./server/db/log');
 const morgan = require('morgan')
+const cors = require('cors')
 var app = express();
 
 app = express();
