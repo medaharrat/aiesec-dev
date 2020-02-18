@@ -2,7 +2,7 @@ const express = require('express');
 const serveStatic = require("serve-static")
 const path = require('path');
 const log = require('./server/db/log');
-const app = express();
+var app = express();
 
 app = express();
 app.use(serveStatic(path.join(__dirname, 'dist')));
